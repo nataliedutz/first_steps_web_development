@@ -1,0 +1,84 @@
+body {
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: rosybrown;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+h1 {
+  font: 18pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+  text-align: center;
+}
+
+h2 {
+    font: 16pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20pt;
+    text-align: center;
+  }
+
+
+
+.container {
+  display: flex;
+  /* border: 5px solid #593d87; */
+  justify-content: center;
+  align-items: center;
+}
+
+image {
+display: flex;
+align-items: center;
+justify-content: center;
+  padding: 3pt;
+  float: right;
+}
+
+section {
+  text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #8094d6;
+}
+
+footer {
+  font-size: 11pt;
+  font-style: italic;
+  line-height: 12pt;
+  text-align: center;
+  padding-top: 30pt;
+}
