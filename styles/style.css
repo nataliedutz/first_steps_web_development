@@ -1,18 +1,51 @@
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 55px;
+    width: 100%;
+    background-color: rosybrown;
+    /* border: 2px solid darkmagenta; */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main-nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    background-color: rosybrown;
+    border: 2px solid darkorchid;
+    padding: 20px;
+}
+
+.main-nav a:hover {
+border: 2px solid darkblue;
+color: black;
+background-color: white;
+}
+
 body {
   font-size: 14pt;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   color: black;
   background-color: rosybrown;
   line-height: 14pt;
-  padding-left: 5pt;
-  padding-right: 5pt;
+  padding-left: 50pt;
+  padding-right: 50pt;
   padding-top: 5pt;
+  text-align: center;
 }
 h1 {
   font: 18pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 20pt;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -29,6 +62,27 @@ h2 {
   /* border: 5px solid #593d87; */
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lists {
+  list-style: none;
+  list-style-position: inside;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid #593d87; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
 }
 
 image {
@@ -44,39 +98,11 @@ section {
 }
 
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-  }
+  
 
-  li {
-    text-align: center;
-    margin: 10px 0;
-    position: relative;
-  }
-
-  li::before {
-    content: "";
-    position: absolute;
-    left: -15px;
-    top: 8px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #000;
-  }
-
-a {
-  text-decoration: none;
-}
-a:link,
-a:visited {
-  color: #8094d6;
-}
 
 footer {
-  font-size: 11pt;
+  font-size: 13pt;
   font-style: italic;
   line-height: 12pt;
   text-align: center;
