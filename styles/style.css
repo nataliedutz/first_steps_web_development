@@ -97,9 +97,43 @@ section {
   text-align: center;
 }
 
+form {
+  width: 400px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-  
+label {
+  display: block;
+  margin-bottom: 5px;
+}
 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
 
 footer {
   font-size: 13pt;
@@ -108,3 +142,14 @@ footer {
   text-align: center;
   padding-top: 30pt;
 }
+
+#messageContainer {
+    margin-top: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
